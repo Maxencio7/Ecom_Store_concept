@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+  </head>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Main.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+<body class="contact-form">
+    <div  class="show-popup">
+    <button id="show-popup">Show Contact Form</button>
+</div>
+    <div id="popup-form-container" class="popup-form-container">
+        <div class="popup-form">
+            <form id="contact-form" method="POST">
+                <h2>Contact Us</h2>
+                <label for="name">Name:</label>
+                <br /><input type="text" id="name" placeholder="Full Name" name="name" required>
+
+                <br /><label for="email">Email:</label>
+                <br /><input type="email" id="email" placeholder="Email" name="email" required>
+
+                <br /><label for="message">Message:</label>
+                <br /><textarea id="message" placeholder="Type Here..." name="message" rows="4" cols="50" required></textarea>
+
+                <br /><button type="submit" class="submit-popup">Send</button>
+                <button type="button" class="close-popup">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 E-Commerce Website. All rights reserved.</p>
+  </footer>
+</html>

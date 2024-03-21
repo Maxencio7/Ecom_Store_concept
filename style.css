@@ -1,0 +1,221 @@
+@import url("https://fonts.googlepis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Add padding and a bit of margin */
+  padding: 0px;
+  margin: -6px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* */
+.navbar a {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ddd;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  text-align: center;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  padding: 20px;
+  opacity: 1;
+  align-items: center;
+}
+.submit{
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image {
+  flex-basis: 20%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-info {
+  flex-basis: 55%;
+  margin-left: 2%;
+}
+
+.product-info h1 {
+  margin: 0 0 10px;
+}
+
+.price {
+  color: #f00;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  margin: 10px 0;
+}
+.product-info{
+  text-align: center;
+}
+
+.add-to-cart {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#mySelect {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 8'><polygon points='0,0 14,0 7,8'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  width: 100%;
+}
+
+#mySelect:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #4caf50;
+}
+.show-popup button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.popup-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-form {
+  background-color: #fff;
+  padding: 20;
+  border-radius: 15px;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+.popup-form button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.form-group {
+  text-align: center;
+}
+.form-group input {
+  position: relative;
+  text-align: justify;
+  font-size: x-large;
+}
+.checkoutForm {
+  text-align: center;
+  font-size: x-large;
+  position: relative;
+}
+.checkoutForm button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.buy button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.products option {
+  display: inline;
+  opacity: 1;
+}
+.product{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  display: inline-block;
+
+
+}
